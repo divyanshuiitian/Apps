@@ -1,13 +1,20 @@
 {
   "expo": {
-    "name": "bolt-expo-nativewind",
-    "slug": "bolt-expo-nativewind",
+    "name": "TCG Lean Coach",
+    "slug": "tcg-lean-coach",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#8b5cf6"
+      },
+      "package": "com.tcgleancoach.app"
+    },
     "ios": {
       "supportsTablet": true
     },
